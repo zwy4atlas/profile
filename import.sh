@@ -17,6 +17,6 @@ dir_name_vim="vim"
 file_name_bash="bash_profile"
 file_name_vim="vimrc"
 
-echo ${base_dir}/${dir_name_bash}/${file_name_bash}
-echo ${base_dir}/${dir_name_vim}/${file_name_vim}
+cat ${base_dir}/${dir_name_bash}/${file_name_bash} >> ~/.bash_profile
+cat ${base_dir}/${dir_name_vim}/${file_name_vim} >> ~/.vimrc
 
